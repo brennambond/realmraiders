@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className='bg-slate-800'>
+    <nav className='bg-slate-800 '>
       <div className='wrapper flex-between'>
         <Link href='/' className='w-44'>
           <Image
@@ -15,7 +15,7 @@ const Navbar = () => {
         </Link>
 
         <div className='flex w-32 justify-end gap-3 '>
-          <p>Login</p>
+          <p className='flex-center button-shadow button-primary'>Login</p>
         </div>
       </div>
     </nav>
