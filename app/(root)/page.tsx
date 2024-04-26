@@ -1,3 +1,9 @@
+import { Hero } from "@/components/motion";
+
 export default function Home() {
-  return <main>Home Page</main>;
+  return (
+    <main className='flex flex-col bg-primary-50'>
+      <Hero />
+    </main>
+  );
 }
