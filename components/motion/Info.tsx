@@ -4,8 +4,9 @@ import {
   GiOpenTreasureChest,
   GiSverdIFjell,
 } from "react-icons/gi";
-import { CurlBottom, CurlTop } from "../shared";
+
 import ParallaxSection from "./ParallaxSection";
+import { CurlTop, CurlBottom } from "../shared";
 
 const Info = () => {
   return (
