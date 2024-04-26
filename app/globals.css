@@ -274,17 +274,23 @@ body {
 }
 
 .cl-userButtonOuterIdentifier {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .cl-userButtonPopoverCard {
   right: 4px !important;
 }
 
+.cl-formButtonPrimary {
+  background-color: #69b6cc;
+  box-shadow: 0;
+}
+
 .cl-formButtonPrimary:hover,
 .cl-formButtonPrimary:focus,
 .cl-formButtonPrimary:active {
-  background-color: #ffffff;
+  background-color: #2e5463;
+  box-shadow: 0;
 }
 
 /* REACT-DATEPICKER STYLES */
