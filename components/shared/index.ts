@@ -14,6 +14,7 @@ import DeleteConfirmation from "./DeleteConfirmation";
 import Card from "./Card";
 import Search from "./Search";
 import Pagination from "./Pagination";
+import Checkout from "./Checkout";
 
 export {
   Navbar,
@@ -32,4 +33,5 @@ export {
   Card,
   Search,
   Pagination,
+  Checkout,
 };
