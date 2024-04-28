@@ -7,6 +7,7 @@ import CurlBottom from "./CurlBottom";
 import StarterCard from "./StarterCard";
 import RaidForm from "./RaidForm";
 import Dropdown from "./Dropdown";
+import { FileUploader } from "./FileUploader";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   StarterCard,
   RaidForm,
   Dropdown,
+  FileUploader,
 };
