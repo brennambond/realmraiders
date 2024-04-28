@@ -8,6 +8,7 @@ import StarterCard from "./StarterCard";
 import RaidForm from "./RaidForm";
 import Dropdown from "./Dropdown";
 import { FileUploader } from "./FileUploader";
+import CategoryFilter from "./CategoryFilter";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   RaidForm,
   Dropdown,
   FileUploader,
+  CategoryFilter,
 };
