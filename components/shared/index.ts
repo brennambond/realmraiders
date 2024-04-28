@@ -9,6 +9,8 @@ import RaidForm from "./RaidForm";
 import Dropdown from "./Dropdown";
 import { FileUploader } from "./FileUploader";
 import CategoryFilter from "./CategoryFilter";
+import Collection from "./Collection";
+import DeleteConfirmation from "./DeleteConfirmation";
 
 export {
   Navbar,
@@ -22,4 +24,6 @@ export {
   Dropdown,
   FileUploader,
   CategoryFilter,
+  Collection,
+  DeleteConfirmation,
 };
