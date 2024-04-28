@@ -3,8 +3,8 @@
 import { IRaid } from "@/lib/database/models/raid.model";
 import { SignedIn, SignedOut, useUser } from "@clerk/nextjs";
 import Link from "next/link";
-import React from "react";
-import { Checkout } from ".";
+
+import Checkout from "./Checkout";
 
 const CheckoutButton = ({ raid }: { raid: IRaid }) => {
   const { user } = useUser();

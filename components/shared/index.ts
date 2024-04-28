@@ -15,6 +15,8 @@ import Card from "./Card";
 import Search from "./Search";
 import Pagination from "./Pagination";
 import Checkout from "./Checkout";
+import CheckoutButton from "./CheckoutButton";
+import RaidHeader from "./RaidHeader";
 
 export {
   Navbar,
@@ -34,4 +36,6 @@ export {
   Search,
   Pagination,
   Checkout,
+  CheckoutButton,
+  RaidHeader,
 };
