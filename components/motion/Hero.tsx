@@ -25,9 +25,9 @@ const Hero = () => {
         <div className='py-8 text-center max-w-[800px] flex-center flex-col gap-8'>
           <h1 className='h1-bold'>Join, Fight, and Loot with Us Today</h1>
           <p className='p-regular-20'>
-            Choose from any of our dozens of raids that span various
-            difficulties and loctaions, hosted by authenticated raiders from
-            across our global community.
+            Choose from any of our dozens of raids that span various ranks and
+            locations, hosted by authenticated raiders from across our global
+            community.
           </p>
           <div className='lg:pt-8'>
             <Link href='/raids' className='button-primary shadow-primary'>
