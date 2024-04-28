@@ -11,6 +11,7 @@ import { FileUploader } from "./FileUploader";
 import CategoryFilter from "./CategoryFilter";
 import Collection from "./Collection";
 import DeleteConfirmation from "./DeleteConfirmation";
+import Card from "./Card";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   CategoryFilter,
   Collection,
   DeleteConfirmation,
+  Card,
 };
