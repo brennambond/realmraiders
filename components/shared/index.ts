@@ -12,6 +12,8 @@ import CategoryFilter from "./CategoryFilter";
 import Collection from "./Collection";
 import DeleteConfirmation from "./DeleteConfirmation";
 import Card from "./Card";
+import Search from "./Search";
+import Pagination from "./Pagination";
 
 export {
   Navbar,
@@ -28,4 +30,6 @@ export {
   Collection,
   DeleteConfirmation,
   Card,
+  Search,
+  Pagination,
 };
