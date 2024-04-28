@@ -19,6 +19,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@stripe/react-stripe-js": "^2.7.0",
     "@types/qs": "^6.9.15",
+    "@uploadthing/react": "^6.5.0",
     "autoprefixer": "^10.4.19",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -37,6 +38,7 @@
     "svix": "^1.21.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animatecss": "^3.0.5",
+    "uploadthing": "^6.10.0",
     "zod": "^3.23.4"
   },
   "devDependencies": {
