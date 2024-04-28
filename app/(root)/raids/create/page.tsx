@@ -1,6 +1,6 @@
 import Contact from "@/components/motion/Contact";
 import ParallaxSection from "@/components/motion/ParallaxSection";
-import { CurlBottom, CurlTop } from "@/components/shared";
+import { CurlBottom, CurlTop, RaidForm } from "@/components/shared";
 import { auth } from "@clerk/nextjs/server";
 
 import type { Metadata } from "next";
@@ -48,7 +48,13 @@ const CreateRaid = () => {
         backgroundSize='cover'
       >
         <CurlTop />
-        <div className='bg-primary-700 p-8 flex justify-center flex-col relative'></div>
+        <div className='bg-primary-700 p-8 flex justify-center flex-col relative'>
+          <RaidForm
+            userId={userId}
+            type='Create'
+            headerText='Create Your Own Adventure Below'
+          />
+        </div>
         <CurlBottom />
       </ParallaxSection>
 
