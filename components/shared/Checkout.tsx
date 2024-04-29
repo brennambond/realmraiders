@@ -20,6 +20,7 @@ const Checkout = ({ raid, userId }: { raid: IRaid; userId: string }) => {
       );
     }
   }, []);
+
   const onCheckout = async () => {
     const order = {
       raidTitle: raid.title,
@@ -32,7 +33,7 @@ const Checkout = ({ raid, userId }: { raid: IRaid; userId: string }) => {
   };
   return (
     <form action={onCheckout} method='post'>
-      <button type='submit' className='button-secondary '>
+      <button type='submit' role='lnk' className='button-secondary '>
         Join the Raid
       </button>
     </form>
