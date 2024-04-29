@@ -33,7 +33,7 @@ const Checkout = ({ raid, userId }: { raid: IRaid; userId: string }) => {
   };
   return (
     <form action={onCheckout} method='post'>
-      <button type='submit' role='lnk' className='button-secondary '>
+      <button type='submit' role='link' className='button-secondary '>
         Join the Raid
       </button>
     </form>
