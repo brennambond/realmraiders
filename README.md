@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
   </div>
 
-  <h3 align="center">A Full Stack Next 14 Events App</h3>
+  <h3 align="center">A Full Stack App That Lets You Join and Create Event-like "Raids"</h3>
 </div>
 
 ## <a name="table">Table of Contents</a>
@@ -24,7 +24,7 @@
 
 ## <a name="introduction">Introduction</a>
 
-This application will allow you to join, create, and update event-like Raids built with Next.js 14 and full-stack features. With seamless payment processing via Stripe, both you and those looking to join your newly created Raid will be able to purchase tickets for any Raid they'd like with ease.
+This application, built with Next.js 14 and offering full stack features, will allow you to join, create, and update event-like Raids. With seamless payment processing via Stripe, both you and those looking to join your newly-created Raid will be able to purchase tickets for any Raid they choose with ease.
 
 ## <a name="tech-stack">Tech Stack</a>
 
